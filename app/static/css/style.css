@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+html, body {
+  font-family: 'Poppins', sans-serif;
+}
+
+body {
+  background-color: #123683;
+  margin: 0;
+  padding: 0;
+}
+
+nav {
+  background-color: #123683;
+  color: #FFFFFF;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  font-size: 16px;
+  gap: 10px;
+}
+
+main {
+  padding: 20px;
+  background-color: #FFFFFF;
+  margin: 10px 20px 20px 20px;
+  border-radius: 20px;
+}
+
+main .topo h1 {
+  font-size: 20px;
+  margin: 0px;
+  color: #1e1e1e;
+  font-weight: 500;
+  text-align: center;
+}
+  
+main .topo p {
+  font-size: 12px;
+  margin: 10px 0px;
+  color: #1e1e1e;
+  text-align: center;
+}
+
+main .treino-box {
+  display: flex;
+  background-color: #FFFFFF;
+  border-radius: 10px;
+  padding: 20px;
+  margin-bottom: 15px;
+  flex-direction: row;
+  justify-content: space-between;
+  border: 1px solid #d1d1d1;
+  margin-top: 10px;
+  align-items: center;
+}
+
+main .treino-box .icon-treino {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+main .treino-box .icon-treino img {
+  width: 40px;
+  height: 40px;
+}
+
+main .treino-box .icon-treino h2 {
+  font-size: 18px;
+  margin: 0;
+  color: #1e1e1e;
+  font-weight: 500;
+}
+
+main .treino-box .icon-treino p {
+  font-size: 12px;
+  margin: 0;
+  color: #1e1e1e;
+}
+
+main .treino-box button {
+  background-color: #071230;
+  color: #FFFFFF;
+  border: none;
+  padding: 2px 16px !important;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 12px;
+  height: 35px;
+}
+
+main .treino-box button p {
+  margin: 0;
+}
