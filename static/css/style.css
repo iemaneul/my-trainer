@@ -46,7 +46,7 @@ main .treino-box {
   display: flex;
   background-color: #FFFFFF;
   border-radius: 10px;
-  padding: 20px;
+  padding: 15px 20px;
   margin-bottom: 15px;
   flex-direction: row;
   justify-content: space-between;
