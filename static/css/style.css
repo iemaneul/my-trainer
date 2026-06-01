@@ -21,7 +21,7 @@ nav {
 }
 
 main {
-  padding: 20px;
+  padding: 20px 20px 0px 20px;
   background-color: #FFFFFF;
   margin: 10px 20px 20px 20px;
   border-radius: 20px;
@@ -37,7 +37,7 @@ main .topo h1 {
   
 main .topo p {
   font-size: 12px;
-  margin: 10px 0px;
+  margin: 5px 0px 10px;
   color: #1e1e1e;
   text-align: center;
 }
