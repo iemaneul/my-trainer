@@ -27,7 +27,7 @@ if (backArrows.length) {
   backArrows.forEach(function (img) {
     img.style.cursor = 'pointer';
     img.addEventListener('click', function () {
-      window.location.href = '/';
+      window.location.href = '../../index.html';
     });
   });
 }
