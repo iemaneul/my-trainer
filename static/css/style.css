@@ -93,3 +93,40 @@ main .treino-box button {
 main .treino-box button p {
   margin: 0;
 }
+
+main .exercicio-box {
+  display: flex;
+  background-color: #FFFFFF;
+  border-radius: 10px;
+  padding: 15px 20px 15px 10px;
+  margin-bottom: 15px;
+  flex-direction: row;
+  justify-content: space-between;
+  border: 1px solid #d1d1d1;
+  margin-top: 10px;
+}
+
+main .exercicio-box .exercicio {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 10px;
+}
+
+main .exercicio-box .exercicio img {
+  width: 50px;
+  height: 50px;
+}
+
+main .exercicio-box .exercicio h2 {
+  font-size: 16px;
+  margin: 0;
+  color: #1e1e1e;
+  font-weight: 600;
+}
+
+main .exercicio-box .exercicio p {
+  font-size: 12px;
+  margin: 0;
+  color: #1e1e1e;
+}
